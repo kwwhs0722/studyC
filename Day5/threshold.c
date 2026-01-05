@@ -4,7 +4,7 @@
 
 // int count_black(int label[], int N);
 // double index_avg(int label[], int N);
-
+// void labels(int value[], int N, int thres);
 // int main(){
 //     int N;
 //     printf("센서 개수 : ");
