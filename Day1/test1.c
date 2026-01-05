@@ -166,6 +166,63 @@ int main(void)
     res = a + b;
     printf("%d + %d = %d\n", a, b, res);*/
 
+    /*int a = 20, b = 3;
+    double res;
+
+    res = ((double)a) / ((double)b);
+    printf("a = %d, b = %d\n", a,b);
+    printf("a / b의 결과 : %.10lf\n", res);
+
+    a = (int)res;
+    printf("(int)%.2lf의 결과 : %d\n", res, a);*/
+
+    /*int a = 10 ;
+    double b = 3.4;
+
+    printf("int형 변수의 크기 : %d\n", sizeof(a));
+    printf("double형 변수의 크기 : %d\n", sizeof(b));
+    printf("정수형 상수의 크기 : %d\n", sizeof(10));
+    printf("수식의 결과값의 크기 : %d\n", sizeof(1.5+3.4));
+    printf("char 자료형의 크기 : %d\n", sizeof(char));*/
+
+    /*int a = 10, b = 20;
+    int res = 2;
+
+    a +=20;
+    res *= b + 10;
+    printf("a = %d, b = %d\n", a, b);
+    printf("res = %d\n", res);*/
+
+    /*int a = 10, b = 20, res;
+
+    res = (a > b) ? a*b : b*3;
+    printf("큰 값 :%d\n", res); */
+
+    /*int a = 10;
+    int b = 12;
+
+    printf("a & b : %d\n", a & b); // AND
+    printf("a ^ b : %d\n", a ^ b); // XOR
+    printf("a | b : %d\n", a | b); // OR
+    printf("~a : %d\n", ~a); //부정 NOT a
+    printf("a << 1 : %d\n", a << 1); // 비트 왼쪽으로 한칸 이동
+    printf("a >> 2 : %d\n", a >> 2); // 비트 오른쪽으로 두칸 이동 */ 
+
+    /*int a = 10, b =5;
+    int res;
+
+    res = a / b * 2;
+    printf("res = % d\n", res);
+    res = ++a * 3;
+    printf("res = % d\n", res);
+    res = a > b && a !=5;
+    printf("res = % d\n", res);
+    res = a % 3 == 0;
+    printf("res = % d\n", res);*/
+
+
+    
+
     
 
 
