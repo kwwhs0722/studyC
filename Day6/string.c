@@ -122,6 +122,7 @@
 //     return 0;
 // }
 
+// #include <string.h>
 // int main(){
 //     char str[80];
 //     printf("공백이 포함된 문자열 입력 : ");
@@ -131,13 +132,16 @@
 //     return 0;
 // }
 
+// #include <string.h>
 // int main(){
 //     int age;
 //     char name[20];
 //     printf("나이 입력 : ");
 //     scanf("%d", &age);
 //     printf("이름 입력 : ");
-//     scanf("%s", name);
+//     getchar();
+//     fgets(name, sizeof(name), stdin);
+//     name[strlen(name)-1] = '\0';
 //     printf("나이: %d, 이름: %s\n", age, name);
 //     return 0;
 // }
@@ -166,6 +170,14 @@
 // }
 
 
+
 //scanf, gets, fgets, puts, fputs, -> 개행포함?, 줄바꿈?, 개행문자 처리(삭제)  정리
 
-// scanf --> \0 있음 버퍼에 \n 남아있음
+// scanf --> %c는 공백, 탭, 개행문자까지 입력, 앞에 공백을 두면 문자만 입력
+//           %s는 \0 전까지 입력, 버퍼에 \n 남아있음, 끝에 \0 자동으로 추가
+// gets -->  개행문자 버림, \0 추가, overflow 위험
+// fgets --> 개행문자까지 포함해서 입력, 끝에 \0, 개행문자 제거: str[strlen(str)-1]='\0'
+// puts --> 자동 줄바꿈, 
+// fputs --> 줄바꿈 안함
+
+//버퍼에 남은 개행문자 처리: 입력문 사이에 getchar(); 추가, scanf("%*c", a); 추가
