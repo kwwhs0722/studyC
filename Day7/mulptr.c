@@ -35,3 +35,21 @@
 //     *ppa = *ppb;
 //     *ppb = pt;
 // }
+
+
+// void print_str(char **pps, int size);
+// int main(){
+//     char *ptr_ary[] = {"eagle", "tiger", "lion", "squirrel"};
+//     int count;
+
+//     count = sizeof(ptr_ary) / sizeof(ptr_ary[0]);
+//     print_str(ptr_ary, count);
+
+//     return 0;
+// }
+// void print_str(char **pps, int size){
+//     int i;
+//     for(i=0; i<size; i++){
+//         printf("%s\n", pps[i]);
+//     }
+// }
