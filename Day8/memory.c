@@ -68,7 +68,7 @@
 //     return 0;
 // }
 
-#include <string.h>
+// #include <string.h>
 
 // int main(){
 //     char temp[80];
